@@ -1,0 +1,41 @@
+{
+  "A": {
+    "n": 20,
+    "terminal_mean": 0.43200000000000005,
+    "terminal_ci95_pooled_t": [
+      0.2013891177723555,
+      0.6626108822276446
+    ],
+    "terminal_ci95_network_t": null,
+    "quasi_convergence_rate": 0.9,
+    "quasi_step_mean_observed": 388.0,
+    "absorption_rate": 0.9,
+    "absorption_time_mean_among_absorbed": 412.8888888888889
+  },
+  "B": {
+    "n": 20,
+    "terminal_mean": 0.9675,
+    "terminal_ci95_pooled_t": [
+      0.8994767182317315,
+      1.0
+    ],
+    "terminal_ci95_network_t": null,
+    "quasi_convergence_rate": 1.0,
+    "quasi_step_mean_observed": 281.35,
+    "absorption_rate": 0.95,
+    "absorption_time_mean_among_absorbed": 323.7368421052632
+  },
+  "C": {
+    "n": 20,
+    "terminal_mean": 0.7194999999999999,
+    "terminal_ci95_pooled_t": [
+      0.5250598677426781,
+      0.9139401322573217
+    ],
+    "terminal_ci95_network_t": null,
+    "quasi_convergence_rate": 0.85,
+    "quasi_step_mean_observed": 476.11764705882354,
+    "absorption_rate": 0.65,
+    "absorption_time_mean_among_absorbed": 502.46153846153845
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "N": 100,
+  "m": 3,
+  "hub_count": 5,
+  "eta": 1.2,
+  "update_fraction": 0.2,
+  "rho_bounds": [
+    0.3,
+    0.7
+  ],
+  "network_seeds": [
+    42,
+    142,
+    242,
+    342,
+    442,
+    542,
+    642,
+    742,
+    842,
+    942,
+    1042,
+    1142,
+    1242,
+    1342,
+    1442,
+    1542,
+    1642,
+    1742,
+    1842,
+    1942
+  ],
+  "base_seed": 42,
+  "steps": 1000,
+  "repeats_per_network": 20,
+  "initial_B_hubs": 2,
+  "initial_peripheral_B_rate": 0.3,
+  "scenario_payoffs": {
+    "A": {
+      "R": [
+        0.08,
+        0.12,
+        0.16
+      ],
+      "T": [
+        0.14,
+        0.2,
+        0.26
+      ],
+      "S": [
+        -0.04,
+        -0.02,
+        0.0
+      ],
+      "P": [
+        -0.06,
+        -0.03,
+        0.0
+      ]
+    },
+    "B": {
+      "R": [
+        0.08,
+        0.12,
+        0.16
+      ],
+      "T": [
+        0.14,
+        0.2,
+        0.45
+      ],
+      "S": [
+        -0.04,
+        -0.02,
+        0.0
+      ],
+      "P": [
+        -0.06,
+        -0.03,
+        0.0
+      ]
+    },
+    "C": {
+      "R": [
+        0.01,
+        0.12,
+        0.16
+      ],
+      "T": [
+        0.14,
+        0.2,
+        0.26
+      ],
+      "S": [
+        -0.04,
+        -0.02,
+        0.0
+      ],
+      "P": [
+        -0.06,
+        -0.03,
+        0.0
+      ]
+    }
+  },
+  "weighted_defuzzified_payoffs": {
+    "A": {
+      "R": 0.12,
+      "S": -0.02,
+      "T": 0.2,
+      "P": -0.03
+    },
+    "B": {
+      "R": 0.12,
+      "S": -0.02,
+      "T": 0.2475,
+      "P": -0.03
+    },
+    "C": {
+      "R": 0.10250000000000001,
+      "S": -0.02,
+      "T": 0.2,
+      "P": -0.03
+    }
+  },
+  "homogeneous_reference_f_star": {
+    "A": 0.888888888888889,
+    "B": 0.9272727272727272,
+    "C": 0.9069767441860466
+  },
+  "inference_unit": "independent BA network means",
+  "quasi_convergence_definition": "first 20-step window with density sd < 0.005",
+  "note": "Triangular probability sampling is an additional assumption, not the fuzzy membership itself; non-absorbing runs are right-censored."
+}

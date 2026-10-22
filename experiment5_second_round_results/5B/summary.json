@@ -1,0 +1,53 @@
+{
+  "high": {
+    "n_runs": 200,
+    "n_networks": 10,
+    "terminal_mean": 0.96085,
+    "ci95_network_t": [
+      0.9348236931377887,
+      0.9868763068622113
+    ],
+    "ci95_fixed_network_t": null,
+    "absorption_rate": 0.93,
+    "quasi_rate": 0.965,
+    "absorption_mean_observed": 330.8763440860215,
+    "quasi_mean_observed": 276.8704663212435,
+    "all_B_count": 183,
+    "all_green_count": 3,
+    "censored_count": 14
+  },
+  "low": {
+    "n_runs": 200,
+    "n_networks": 10,
+    "terminal_mean": 0.3609,
+    "ci95_network_t": [
+      0.20859020901116077,
+      0.5132097909888392
+    ],
+    "ci95_fixed_network_t": null,
+    "absorption_rate": 0.905,
+    "quasi_rate": 0.93,
+    "absorption_mean_observed": 321.71270718232046,
+    "quasi_mean_observed": 267.26881720430106,
+    "all_B_count": 59,
+    "all_green_count": 122,
+    "censored_count": 19
+  },
+  "random": {
+    "n_runs": 200,
+    "n_networks": 10,
+    "terminal_mean": 0.7743499999999999,
+    "ci95_network_t": [
+      0.6742490059219829,
+      0.8744509940780169
+    ],
+    "ci95_fixed_network_t": null,
+    "absorption_rate": 0.755,
+    "quasi_rate": 0.865,
+    "absorption_mean_observed": 492.8476821192053,
+    "quasi_mean_observed": 448.757225433526,
+    "all_B_count": 124,
+    "all_green_count": 27,
+    "censored_count": 49
+  }
+}

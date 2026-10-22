@@ -1,0 +1,76 @@
+{
+  "N": 100,
+  "m": 3,
+  "hub_count": 5,
+  "network_seeds": [
+    42,
+    142,
+    242,
+    342,
+    442,
+    542,
+    642,
+    742,
+    842,
+    942,
+    1042,
+    1142,
+    1242,
+    1342,
+    1442,
+    1542,
+    1642,
+    1742,
+    1842,
+    1942
+  ],
+  "base_seed": 42,
+  "networks": 20,
+  "repeats_per_network": 20,
+  "steps": 1000,
+  "eta_levels": [
+    0.5,
+    1.2,
+    2.5
+  ],
+  "inertia_levels": {
+    "low": [
+      0.2,
+      0.4
+    ],
+    "high": [
+      0.6,
+      0.8
+    ]
+  },
+  "payoff_triangles": {
+    "R": [
+      0.08,
+      0.12,
+      0.16
+    ],
+    "S": [
+      -0.04,
+      -0.02,
+      0.0
+    ],
+    "T": [
+      0.14,
+      0.2,
+      0.26
+    ],
+    "P": [
+      -0.06,
+      -0.03,
+      0.0
+    ]
+  },
+  "update_fraction": 0.2,
+  "initial_peripheral_B_rate": 0.3,
+  "initial_B_hubs": 2,
+  "shared_initial_states_across_6_conditions": true,
+  "inference_unit": "independent network mean",
+  "payoff_sampling": "new triangular probability sample at each local payoff evaluation; probability sampling is an additional assumption, not fuzzy membership",
+  "quasi_definition": "first 20 density observations with SD < 0.005",
+  "absorption_censoring": "runs without absorption at T=1000 are right-censored"
+}

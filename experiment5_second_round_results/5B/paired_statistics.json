@@ -1,0 +1,48 @@
+{
+  "inference_unit": "independent_network_mean",
+  "n_units": 10,
+  "conditions": [
+    "high",
+    "low",
+    "random"
+  ],
+  "friedman": {
+    "statistic": 20.0,
+    "p": 4.539992976248486e-05
+  },
+  "paired_wilcoxon_holm": [
+    {
+      "comparison": "high_vs_low",
+      "difference_mean": 0.59995,
+      "ci95_difference_t": [
+        0.45525881621491715,
+        0.7446411837850828
+      ],
+      "W": 0.0,
+      "p_raw": 0.001953125,
+      "p_holm": 0.005859375
+    },
+    {
+      "comparison": "high_vs_random",
+      "difference_mean": 0.18650000000000003,
+      "ci95_difference_t": [
+        0.08116155332281422,
+        0.29183844667718584
+      ],
+      "W": 0.0,
+      "p_raw": 0.001953125,
+      "p_holm": 0.005859375
+    },
+    {
+      "comparison": "low_vs_random",
+      "difference_mean": -0.41345,
+      "ci95_difference_t": [
+        -0.5548036969966974,
+        -0.27209630300330256
+      ],
+      "W": 0.0,
+      "p_raw": 0.001953125,
+      "p_holm": 0.005859375
+    }
+  ]
+}

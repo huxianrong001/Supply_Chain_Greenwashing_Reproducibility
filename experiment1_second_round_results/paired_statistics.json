@@ -1,0 +1,32 @@
+{
+  "inference_unit": "within-fixed-network matched replicate",
+  "n_units": 20,
+  "warning": "Single-network p-values are conditional on that graph, not topology-generalizable.",
+  "friedman": {
+    "statistic": 13.614035087719321,
+    "p": 0.0011059865422985776
+  },
+  "paired_wilcoxon": [
+    {
+      "comparison": "A-B",
+      "W": 0.0,
+      "p_raw": 0.0007989285739917786,
+      "difference_mean": -0.5355,
+      "p_holm": 0.0023967857219753357
+    },
+    {
+      "comparison": "A-C",
+      "W": 30.0,
+      "p_raw": 0.08480628179936625,
+      "difference_mean": -0.2875,
+      "p_holm": 0.08480628179936625
+    },
+    {
+      "comparison": "B-C",
+      "W": 6.0,
+      "p_raw": 0.015841708713670334,
+      "difference_mean": 0.24800000000000005,
+      "p_holm": 0.03168341742734067
+    }
+  ]
+}

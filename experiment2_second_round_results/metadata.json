@@ -1,0 +1,137 @@
+{
+  "N": 100,
+  "m": 3,
+  "hub_count": 5,
+  "network_seeds": [
+    42,
+    142,
+    242,
+    342,
+    442,
+    542,
+    642,
+    742,
+    842,
+    942,
+    1042,
+    1142,
+    1242,
+    1342,
+    1442,
+    1542,
+    1642,
+    1742,
+    1842,
+    1942
+  ],
+  "repeats_per_network": 20,
+  "steps": 1000,
+  "base_seed": 42,
+  "eta": 1.2,
+  "update_fraction": 0.2,
+  "rho_bounds": [
+    0.3,
+    0.7
+  ],
+  "peripheral_B_ratio": 0.3,
+  "fuzzy_levels": {
+    "low": {
+      "R": [
+        0.11,
+        0.12,
+        0.13
+      ],
+      "S": [
+        -0.025,
+        -0.02,
+        -0.015
+      ],
+      "T": [
+        0.18,
+        0.2,
+        0.22
+      ],
+      "P": [
+        -0.035,
+        -0.03,
+        -0.025
+      ]
+    },
+    "medium": {
+      "R": [
+        0.08,
+        0.12,
+        0.16
+      ],
+      "S": [
+        -0.04,
+        -0.02,
+        0.0
+      ],
+      "T": [
+        0.14,
+        0.2,
+        0.26
+      ],
+      "P": [
+        -0.06,
+        -0.03,
+        0.0
+      ]
+    },
+    "high": {
+      "R": [
+        0.02,
+        0.12,
+        0.22
+      ],
+      "S": [
+        -0.08,
+        -0.02,
+        0.04
+      ],
+      "T": [
+        0.06,
+        0.2,
+        0.34
+      ],
+      "P": [
+        -0.12,
+        -0.03,
+        0.06
+      ]
+    }
+  },
+  "asymmetric_parameters": {
+    "R": [
+      0.07,
+      0.12,
+      0.19
+    ],
+    "S": [
+      -0.06,
+      -0.02,
+      0.01
+    ],
+    "T": [
+      0.11,
+      0.2,
+      0.32
+    ],
+    "P": [
+      -0.09,
+      -0.03,
+      0.02
+    ]
+  },
+  "simulation_modes": {
+    "comparison": "new triangular samples for each local payoff evaluation",
+    "edge_fixed": "directed edge-by-strategy-pair fixed triangular draws per run",
+    "run_fixed": "one triangular draw per R/S/T/P each run",
+    "deterministic": "weighted / centroid point values"
+  },
+  "inference_unit": "network means",
+  "fixed_initialization_within_network_replicate": true,
+  "sampling_sensitivity_enabled": true,
+  "note": "Fuzzy membership functions are NOT probability distributions; triangular sampling is an explicit additional stochastic modelling assumption. Non-absorption times are right-censored at T."
+}

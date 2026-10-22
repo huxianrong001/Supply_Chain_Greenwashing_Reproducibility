@@ -1,0 +1,48 @@
+{
+  "inference_unit": "independent_network_mean",
+  "n_units": 10,
+  "conditions": [
+    "K_10",
+    "K_3",
+    "K_5"
+  ],
+  "friedman": {
+    "statistic": 2.6000000000000085,
+    "p": 0.2725317930340115
+  },
+  "paired_wilcoxon_holm": [
+    {
+      "comparison": "K_10_vs_K_3",
+      "difference_mean": -0.046750000000000014,
+      "ci95_difference_t": [
+        -0.11548328146813042,
+        0.02198328146813039
+      ],
+      "W": 13.0,
+      "p_raw": 0.16015625,
+      "p_holm": 0.48046875
+    },
+    {
+      "comparison": "K_10_vs_K_5",
+      "difference_mean": -0.03424999999999998,
+      "ci95_difference_t": [
+        -0.1095554964947815,
+        0.041055496494781525
+      ],
+      "W": 17.0,
+      "p_raw": 0.322265625,
+      "p_holm": 0.64453125
+    },
+    {
+      "comparison": "K_3_vs_K_5",
+      "difference_mean": 0.012500000000000034,
+      "ci95_difference_t": [
+        -0.014715441958800967,
+        0.039715441958801036
+      ],
+      "W": 20.0,
+      "p_raw": 0.4921875,
+      "p_holm": 0.64453125
+    }
+  ]
+}

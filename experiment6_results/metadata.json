@@ -1,0 +1,63 @@
+{
+  "seed": 42,
+  "networks": 20,
+  "repeats": 20,
+  "steps": 1000,
+  "n": 100,
+  "m": 3,
+  "eta": 1.2,
+  "rho_min": 0.3,
+  "rho_max": 0.7,
+  "update_fraction": 0.2,
+  "output": "experiment6_results",
+  "no_snapshots": false,
+  "smoke": false,
+  "network_seeds": [
+    3546534901,
+    1738025676,
+    2459608965,
+    3727528107,
+    2849504862,
+    3264740102,
+    2823092280,
+    2444072466,
+    1154878706,
+    1252988545,
+    1567750795,
+    1966498861,
+    1560659690,
+    2278507709,
+    1472686441,
+    3049542761,
+    1356772667,
+    848429669,
+    2607214661,
+    1746100994
+  ],
+  "payoff_triangles": {
+    "R": [
+      0.08,
+      0.12,
+      0.16
+    ],
+    "S": [
+      -0.04,
+      -0.02,
+      0.0
+    ],
+    "T": [
+      0.14,
+      0.2,
+      0.26
+    ],
+    "P": [
+      -0.06,
+      -0.03,
+      0.0
+    ]
+  },
+  "initialization": "two greenwashing hubs, three green hubs; nested peripheral sets",
+  "seed_policy": "single root seed; all streams deterministically derived",
+  "inference_unit": "independent BA network means",
+  "right_censor": "no absorption by T"
+}

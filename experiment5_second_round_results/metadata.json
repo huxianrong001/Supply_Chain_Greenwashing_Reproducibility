@@ -1,0 +1,63 @@
+{
+  "N_main": 100,
+  "m_main": [
+    2,
+    3,
+    5
+  ],
+  "K_main": 5,
+  "eta": 1.2,
+  "inertia_range": [
+    0.3,
+    0.7
+  ],
+  "payoffs": {
+    "R": [
+      0.08,
+      0.12,
+      0.16
+    ],
+    "S": [
+      -0.04,
+      -0.02,
+      0.0
+    ],
+    "T": [
+      0.14,
+      0.2,
+      0.26
+    ],
+    "P": [
+      -0.06,
+      -0.03,
+      0.0
+    ]
+  },
+  "networks": 10,
+  "repeats_per_network": 20,
+  "steps": 1000,
+  "network_seeds": [
+    42,
+    142,
+    242,
+    342,
+    442,
+    542,
+    642,
+    742,
+    842,
+    942
+  ],
+  "seed_base": 42,
+  "sections": [
+    "5A",
+    "5B",
+    "5C",
+    "5D",
+    "5E"
+  ],
+  "cluster_unit": "independent BA network; repeated runs nested within graph",
+  "5C_accumulated": "EXACT reuse of 5A baseline records (no rerun)",
+  "censoring": "nonabsorbed at steps are right-censored",
+  "payoff_probability_note": "triangular RNG is an added probability model, not fuzzy membership distribution"
+}

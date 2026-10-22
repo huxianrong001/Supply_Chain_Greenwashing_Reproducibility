@@ -1,0 +1,42 @@
+{
+  "N": 100,
+  "m": 3,
+  "hub_count": 5,
+  "eta": 1.2,
+  "update_fraction": 0.2,
+  "rho_bounds": [
+    0.3,
+    0.7
+  ],
+  "fuzzy": {
+    "R": [
+      0.08,
+      0.12,
+      0.16
+    ],
+    "S": [
+      -0.04,
+      -0.02,
+      0.0
+    ],
+    "T": [
+      0.14,
+      0.2,
+      0.26
+    ],
+    "P": [
+      -0.06,
+      -0.03,
+      0.0
+    ]
+  },
+  "network_seeds": [
+    42
+  ],
+  "repeats": 20,
+  "steps": 1000,
+  "base_seed": 42,
+  "initial_peripheral_greenwashing_fraction": 0.3,
+  "shared_peripheral_initialization": true,
+  "comparison_design": "within-fixed-network matched replicate"
+}

@@ -1,0 +1,53 @@
+{
+  "K_10": {
+    "n_runs": 200,
+    "n_networks": 10,
+    "terminal_mean": 0.89815,
+    "ci95_network_t": [
+      0.8432844492594636,
+      0.9530155507405365
+    ],
+    "ci95_fixed_network_t": null,
+    "absorption_rate": 0.84,
+    "quasi_rate": 0.895,
+    "absorption_mean_observed": 452.3095238095238,
+    "quasi_mean_observed": 403.97206703910615,
+    "all_B_count": 158,
+    "all_green_count": 10,
+    "censored_count": 32
+  },
+  "K_3": {
+    "n_runs": 200,
+    "n_networks": 10,
+    "terminal_mean": 0.9449,
+    "ci95_network_t": [
+      0.907595434802704,
+      0.9822045651972959
+    ],
+    "ci95_fixed_network_t": null,
+    "absorption_rate": 0.905,
+    "quasi_rate": 0.935,
+    "absorption_mean_observed": 422.01657458563534,
+    "quasi_mean_observed": 366.11229946524065,
+    "all_B_count": 176,
+    "all_green_count": 5,
+    "censored_count": 19
+  },
+  "K_5": {
+    "n_runs": 200,
+    "n_networks": 10,
+    "terminal_mean": 0.9324,
+    "ci95_network_t": [
+      0.8949558508860282,
+      0.9698441491139718
+    ],
+    "ci95_fixed_network_t": null,
+    "absorption_rate": 0.845,
+    "quasi_rate": 0.89,
+    "absorption_mean_observed": 452.7573964497041,
+    "quasi_mean_observed": 403.7752808988764,
+    "all_B_count": 165,
+    "all_green_count": 4,
+    "censored_count": 31
+  }
+}

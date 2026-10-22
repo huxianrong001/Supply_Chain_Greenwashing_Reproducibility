@@ -1,0 +1,56 @@
+{
+  "L": {
+    "n_simulations": 400,
+    "n_networks": 20,
+    "terminal_mean": 0.893875,
+    "ci95_network_level_t": [
+      0.8636633173207408,
+      0.924086682679259
+    ],
+    "ci95_conditional_t": null,
+    "absorption_rate": 0.875,
+    "quasi_rate": 0.9275,
+    "absorption_mean_among_absorbed": 449.16285714285715,
+    "quasi_mean_among_observed": 411.99460916442047,
+    "n_all_green": 25,
+    "n_all_B": 325,
+    "n_not_absorbed": 50,
+    "final_B_hubs_mean": 4.435
+  },
+  "M": {
+    "n_simulations": 400,
+    "n_networks": 20,
+    "terminal_mean": 0.9158499999999999,
+    "ci95_network_level_t": [
+      0.8945044353721222,
+      0.9371955646278779
+    ],
+    "ci95_conditional_t": null,
+    "absorption_rate": 0.8475,
+    "quasi_rate": 0.8925,
+    "absorption_mean_among_absorbed": 417.6047197640118,
+    "quasi_mean_among_observed": 371.85434173669466,
+    "n_all_green": 17,
+    "n_all_B": 322,
+    "n_not_absorbed": 61,
+    "final_B_hubs_mean": 4.5475
+  },
+  "H": {
+    "n_simulations": 400,
+    "n_networks": 20,
+    "terminal_mean": 0.908375,
+    "ci95_network_level_t": [
+      0.879720128868244,
+      0.9370298711317556
+    ],
+    "ci95_conditional_t": null,
+    "absorption_rate": 0.86,
+    "quasi_rate": 0.9175,
+    "absorption_mean_among_absorbed": 428.3488372093023,
+    "quasi_mean_among_observed": 389.9346049046322,
+    "n_all_green": 19,
+    "n_all_B": 325,
+    "n_not_absorbed": 56,
+    "final_B_hubs_mean": 4.5325
+  }
+}

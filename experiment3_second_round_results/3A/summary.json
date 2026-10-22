@@ -1,0 +1,56 @@
+{
+  "A": {
+    "n_simulations": 400,
+    "n_networks": 20,
+    "terminal_mean": 0.913775,
+    "ci95_network_level_t": [
+      0.8842207269267625,
+      0.9433292730732376
+    ],
+    "ci95_conditional_t": null,
+    "absorption_rate": 0.89,
+    "quasi_rate": 0.91,
+    "absorption_mean_among_absorbed": 433.4157303370786,
+    "quasi_mean_among_observed": 387.7637362637363,
+    "n_all_green": 17,
+    "n_all_B": 339,
+    "n_not_absorbed": 44,
+    "final_B_hubs_mean": 4.5475
+  },
+  "B": {
+    "n_simulations": 400,
+    "n_networks": 20,
+    "terminal_mean": 0.9993500000000001,
+    "ci95_network_level_t": [
+      0.998435463318081,
+      1.0
+    ],
+    "ci95_conditional_t": null,
+    "absorption_rate": 0.99,
+    "quasi_rate": 1.0,
+    "absorption_mean_among_absorbed": 288.5479797979798,
+    "quasi_mean_among_observed": 241.72,
+    "n_all_green": 0,
+    "n_all_B": 396,
+    "n_not_absorbed": 4,
+    "final_B_hubs_mean": 4.99
+  },
+  "C": {
+    "n_simulations": 400,
+    "n_networks": 20,
+    "terminal_mean": 0.9969499999999999,
+    "ci95_network_level_t": [
+      0.9943332793324466,
+      0.9995667206675534
+    ],
+    "ci95_conditional_t": null,
+    "absorption_rate": 0.97,
+    "quasi_rate": 0.99,
+    "absorption_mean_among_absorbed": 346.96907216494844,
+    "quasi_mean_among_observed": 297.75,
+    "n_all_green": 0,
+    "n_all_B": 388,
+    "n_not_absorbed": 12,
+    "final_B_hubs_mean": 4.9875
+  }
+}

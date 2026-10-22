@@ -1,0 +1,146 @@
+{
+  "eta_0.5_low_inertia": {
+    "eta": 0.5,
+    "inertia_level": "low",
+    "inertia_bounds": [
+      0.2,
+      0.4
+    ],
+    "n_networks": 20,
+    "repeats_per_network": 20,
+    "n_simulations": 400,
+    "terminal_mean": 0.8593499999999998,
+    "ci95_network_level_t": [
+      0.8310191931270879,
+      0.8876808068729117
+    ],
+    "ci95_single_network_replicates_t": null,
+    "absorption_rate": 0.9025,
+    "absorption_time_mean_among_absorbed": 443.8919667590028,
+    "quasi_rate": 0.9275,
+    "quasi_time_mean_among_observed": 420.4366576819407,
+    "n_all_green": 48,
+    "n_all_B": 313,
+    "n_not_absorbed": 39
+  },
+  "eta_0.5_high_inertia": {
+    "eta": 0.5,
+    "inertia_level": "high",
+    "inertia_bounds": [
+      0.6,
+      0.8
+    ],
+    "n_networks": 20,
+    "repeats_per_network": 20,
+    "n_simulations": 400,
+    "terminal_mean": 0.7837750000000001,
+    "ci95_network_level_t": [
+      0.7380669852186532,
+      0.829483014781347
+    ],
+    "ci95_single_network_replicates_t": null,
+    "absorption_rate": 0.52,
+    "absorption_time_mean_among_absorbed": 635.9230769230769,
+    "quasi_rate": 0.7925,
+    "quasi_time_mean_among_observed": 528.5110410094637,
+    "n_all_green": 27,
+    "n_all_B": 181,
+    "n_not_absorbed": 192
+  },
+  "eta_1.2_low_inertia": {
+    "eta": 1.2,
+    "inertia_level": "low",
+    "inertia_bounds": [
+      0.2,
+      0.4
+    ],
+    "n_networks": 20,
+    "repeats_per_network": 20,
+    "n_simulations": 400,
+    "terminal_mean": 0.9544999999999998,
+    "ci95_network_level_t": [
+      0.9317714193320491,
+      0.9772285806679505
+    ],
+    "ci95_single_network_replicates_t": null,
+    "absorption_rate": 0.955,
+    "absorption_time_mean_among_absorbed": 380.2434554973822,
+    "quasi_rate": 0.9675,
+    "quasi_time_mean_among_observed": 352.82428940568474,
+    "n_all_green": 14,
+    "n_all_B": 368,
+    "n_not_absorbed": 18
+  },
+  "eta_1.2_high_inertia": {
+    "eta": 1.2,
+    "inertia_level": "high",
+    "inertia_bounds": [
+      0.6,
+      0.8
+    ],
+    "n_networks": 20,
+    "repeats_per_network": 20,
+    "n_simulations": 400,
+    "terminal_mean": 0.8925000000000001,
+    "ci95_network_level_t": [
+      0.8575725966263207,
+      0.9274274033736795
+    ],
+    "ci95_single_network_replicates_t": null,
+    "absorption_rate": 0.675,
+    "absorption_time_mean_among_absorbed": 572.7962962962963,
+    "quasi_rate": 0.8775,
+    "quasi_time_mean_among_observed": 442.43589743589746,
+    "n_all_green": 10,
+    "n_all_B": 260,
+    "n_not_absorbed": 130
+  },
+  "eta_2.5_low_inertia": {
+    "eta": 2.5,
+    "inertia_level": "low",
+    "inertia_bounds": [
+      0.2,
+      0.4
+    ],
+    "n_networks": 20,
+    "repeats_per_network": 20,
+    "n_simulations": 400,
+    "terminal_mean": 0.9159999999999998,
+    "ci95_network_level_t": [
+      0.8703639533620101,
+      0.9616360466379895
+    ],
+    "ci95_single_network_replicates_t": null,
+    "absorption_rate": 0.9225,
+    "absorption_time_mean_among_absorbed": 352.1680216802168,
+    "quasi_rate": 0.94,
+    "quasi_time_mean_among_observed": 320.1595744680851,
+    "n_all_green": 22,
+    "n_all_B": 347,
+    "n_not_absorbed": 31
+  },
+  "eta_2.5_high_inertia": {
+    "eta": 2.5,
+    "inertia_level": "high",
+    "inertia_bounds": [
+      0.6,
+      0.8
+    ],
+    "n_networks": 20,
+    "repeats_per_network": 20,
+    "n_simulations": 400,
+    "terminal_mean": 0.8887,
+    "ci95_network_level_t": [
+      0.8587530057318158,
+      0.9186469942681843
+    ],
+    "ci95_single_network_replicates_t": null,
+    "absorption_rate": 0.6875,
+    "absorption_time_mean_among_absorbed": 518.0072727272727,
+    "quasi_rate": 0.8725,
+    "quasi_time_mean_among_observed": 392.4183381088825,
+    "n_all_green": 2,
+    "n_all_B": 273,
+    "n_not_absorbed": 125
+  }
+}

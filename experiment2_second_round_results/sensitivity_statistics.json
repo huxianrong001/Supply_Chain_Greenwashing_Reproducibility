@@ -1,0 +1,172 @@
+{
+  "sampling_summary": {
+    "comparison": {
+      "n_simulations": 400,
+      "n_networks": 20,
+      "terminal_mean": 0.74795,
+      "ci95_run_conditional_t": null,
+      "ci95_network_level_t": [
+        0.6738029660335734,
+        0.8220970339664264
+      ],
+      "absorption_rate": 0.8,
+      "absorption_mean_among_absorbed": 524.146875,
+      "quasi_rate": 0.8575,
+      "quasi_mean_among_observed": 499.600583090379,
+      "all_green_n": 73,
+      "all_B_n": 247,
+      "mixed_at_T_n": 80
+    },
+    "edge_fixed": {
+      "n_simulations": 400,
+      "n_networks": 20,
+      "terminal_mean": 0.7166999999999999,
+      "ci95_run_conditional_t": null,
+      "ci95_network_level_t": [
+        0.6219856436473062,
+        0.811414356352694
+      ],
+      "absorption_rate": 0.765,
+      "absorption_mean_among_absorbed": 516.656862745098,
+      "quasi_rate": 0.8375,
+      "quasi_mean_among_observed": 493.6776119402985,
+      "all_green_n": 81,
+      "all_B_n": 225,
+      "mixed_at_T_n": 94
+    },
+    "run_fixed": {
+      "n_simulations": 400,
+      "n_networks": 20,
+      "terminal_mean": 0.666375,
+      "ci95_run_conditional_t": null,
+      "ci95_network_level_t": [
+        0.6150051167639162,
+        0.7177448832360837
+      ],
+      "absorption_rate": 0.855,
+      "absorption_mean_among_absorbed": 427.7719298245614,
+      "quasi_rate": 0.89,
+      "quasi_mean_among_observed": 402.49719101123594,
+      "all_green_n": 111,
+      "all_B_n": 231,
+      "mixed_at_T_n": 58
+    }
+  },
+  "sampling_matched_tests": {
+    "unit": "network_mean",
+    "n_units": 20,
+    "conditions": [
+      "comparison",
+      "edge_fixed",
+      "run_fixed"
+    ],
+    "note": "Network realization is the inference unit.",
+    "friedman": {
+      "statistic": 6.100000000000023,
+      "p": 0.04735892439114039
+    },
+    "paired_wilcoxon_holm": [
+      {
+        "comparison": "comparison_vs_edge_fixed",
+        "difference_mean": 0.031249999999999972,
+        "W": 88.0,
+        "p_raw": 0.5458755493164062,
+        "p_holm": 0.5458755493164062
+      },
+      {
+        "comparison": "comparison_vs_run_fixed",
+        "difference_mean": 0.08157499999999998,
+        "W": 41.0,
+        "p_raw": 0.01531219482421875,
+        "p_holm": 0.04593658447265625
+      },
+      {
+        "comparison": "edge_fixed_vs_run_fixed",
+        "difference_mean": 0.05032500000000001,
+        "W": 64.0,
+        "p_raw": 0.13272666931152344,
+        "p_holm": 0.2654533386230469
+      }
+    ]
+  },
+  "operator_summary": {
+    "centroid": {
+      "n_simulations": 400,
+      "n_networks": 20,
+      "terminal_mean": 0.7441500000000001,
+      "ci95_run_conditional_t": null,
+      "ci95_network_level_t": [
+        0.6766758281717957,
+        0.8116241718282042
+      ],
+      "absorption_rate": 0.7875,
+      "absorption_mean_among_absorbed": 539.5650793650793,
+      "quasi_rate": 0.845,
+      "quasi_mean_among_observed": 504.64201183431953,
+      "all_green_n": 74,
+      "all_B_n": 241,
+      "mixed_at_T_n": 85
+    },
+    "weighted": {
+      "n_simulations": 400,
+      "n_networks": 20,
+      "terminal_mean": 0.7721750000000001,
+      "ci95_run_conditional_t": null,
+      "ci95_network_level_t": [
+        0.7094540720026126,
+        0.8348959279973875
+      ],
+      "absorption_rate": 0.83,
+      "absorption_mean_among_absorbed": 533.7409638554217,
+      "quasi_rate": 0.8925,
+      "quasi_mean_among_observed": 494.078431372549,
+      "all_green_n": 70,
+      "all_B_n": 262,
+      "mixed_at_T_n": 68
+    }
+  },
+  "operator_matched_tests": {
+    "unit": "network_mean",
+    "n_units": 20,
+    "conditions": [
+      "weighted",
+      "centroid"
+    ],
+    "note": "Network realization is the inference unit.",
+    "paired_wilcoxon_holm": [
+      {
+        "comparison": "weighted_vs_centroid",
+        "difference_mean": 0.028024999999999977,
+        "W": 75.0,
+        "p_raw": 0.2773551940917969,
+        "p_holm": 0.2773551940917969
+      }
+    ]
+  },
+  "asymmetric_parameters": {
+    "R": [
+      0.07,
+      0.12,
+      0.19
+    ],
+    "S": [
+      -0.06,
+      -0.02,
+      0.01
+    ],
+    "T": [
+      0.11,
+      0.2,
+      0.32
+    ],
+    "P": [
+      -0.09,
+      -0.03,
+      0.02
+    ]
+  },
+  "operator_reference_f_star": {
+    "weighted": 0.891891891891892,
+    "centroid": 0.8928571428571429
+  }
+}

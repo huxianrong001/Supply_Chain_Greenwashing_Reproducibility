@@ -1,0 +1,183 @@
+{
+  "inference_unit": "independent_network_mean",
+  "n_units": 10,
+  "conditions": [
+    "m_2_accumulated",
+    "m_2_normalized",
+    "m_3_accumulated",
+    "m_3_normalized",
+    "m_5_accumulated",
+    "m_5_normalized"
+  ],
+  "friedman": {
+    "statistic": 33.02857142857141,
+    "p": 3.7145879979722875e-06
+  },
+  "paired_wilcoxon_holm": [
+    {
+      "comparison": "m_2_accumulated_vs_m_2_normalized",
+      "difference_mean": 0.07169999999999997,
+      "ci95_difference_t": [
+        -0.08715113577239032,
+        0.23055113577239028
+      ],
+      "W": 20.0,
+      "p_raw": 0.4921875,
+      "p_holm": 1.0
+    },
+    {
+      "comparison": "m_2_accumulated_vs_m_3_accumulated",
+      "difference_mean": -0.22444999999999998,
+      "ci95_difference_t": [
+        -0.35487059774546004,
+        -0.09402940225453993
+      ],
+      "W": 2.0,
+      "p_raw": 0.005859375,
+      "p_holm": 0.046875
+    },
+    {
+      "comparison": "m_2_accumulated_vs_m_3_normalized",
+      "difference_mean": 0.03434999999999998,
+      "ci95_difference_t": [
+        -0.1067033598961613,
+        0.17540335989616124
+      ],
+      "W": 21.0,
+      "p_raw": 0.556640625,
+      "p_holm": 1.0
+    },
+    {
+      "comparison": "m_2_accumulated_vs_m_5_accumulated",
+      "difference_mean": -0.34415,
+      "ci95_difference_t": [
+        -0.44492622414755295,
+        -0.24337377585244707
+      ],
+      "W": 0.0,
+      "p_raw": 0.001953125,
+      "p_holm": 0.029296875
+    },
+    {
+      "comparison": "m_2_accumulated_vs_m_5_normalized",
+      "difference_mean": 0.02334999999999999,
+      "ci95_difference_t": [
+        -0.10803084040330985,
+        0.1547308404033098
+      ],
+      "W": 20.0,
+      "p_raw": 0.4921875,
+      "p_holm": 1.0
+    },
+    {
+      "comparison": "m_2_normalized_vs_m_3_accumulated",
+      "difference_mean": -0.29614999999999997,
+      "ci95_difference_t": [
+        -0.35516611376804447,
+        -0.23713388623195544
+      ],
+      "W": 0.0,
+      "p_raw": 0.001953125,
+      "p_holm": 0.029296875
+    },
+    {
+      "comparison": "m_2_normalized_vs_m_3_normalized",
+      "difference_mean": -0.037349999999999994,
+      "ci95_difference_t": [
+        -0.17183340416693546,
+        0.09713340416693547
+      ],
+      "W": 26.0,
+      "p_raw": 0.921875,
+      "p_holm": 1.0
+    },
+    {
+      "comparison": "m_2_normalized_vs_m_5_accumulated",
+      "difference_mean": -0.41585,
+      "ci95_difference_t": [
+        -0.49643171764339156,
+        -0.33526828235660844
+      ],
+      "W": 0.0,
+      "p_raw": 0.001953125,
+      "p_holm": 0.029296875
+    },
+    {
+      "comparison": "m_2_normalized_vs_m_5_normalized",
+      "difference_mean": -0.04834999999999999,
+      "ci95_difference_t": [
+        -0.14154017530952073,
+        0.04484017530952075
+      ],
+      "W": 16.0,
+      "p_raw": 0.275390625,
+      "p_holm": 1.0
+    },
+    {
+      "comparison": "m_3_accumulated_vs_m_3_normalized",
+      "difference_mean": 0.25880000000000003,
+      "ci95_difference_t": [
+        0.12950340865217874,
+        0.3880965913478213
+      ],
+      "W": 3.0,
+      "p_raw": 0.009765625,
+      "p_holm": 0.068359375
+    },
+    {
+      "comparison": "m_3_accumulated_vs_m_5_accumulated",
+      "difference_mean": -0.1197,
+      "ci95_difference_t": [
+        -0.18372948280125012,
+        -0.05567051719874988
+      ],
+      "W": 0.0,
+      "p_raw": 0.001953125,
+      "p_holm": 0.029296875
+    },
+    {
+      "comparison": "m_3_accumulated_vs_m_5_normalized",
+      "difference_mean": 0.24780000000000002,
+      "ci95_difference_t": [
+        0.166308040541285,
+        0.32929195945871503
+      ],
+      "W": 0.0,
+      "p_raw": 0.001953125,
+      "p_holm": 0.029296875
+    },
+    {
+      "comparison": "m_3_normalized_vs_m_5_accumulated",
+      "difference_mean": -0.3785,
+      "ci95_difference_t": [
+        -0.46337729702907815,
+        -0.29362270297092186
+      ],
+      "W": 0.0,
+      "p_raw": 0.001953125,
+      "p_holm": 0.029296875
+    },
+    {
+      "comparison": "m_3_normalized_vs_m_5_normalized",
+      "difference_mean": -0.010999999999999992,
+      "ci95_difference_t": [
+        -0.1288627541781161,
+        0.10686275417811611
+      ],
+      "W": 27.0,
+      "p_raw": 1.0,
+      "p_holm": 1.0
+    },
+    {
+      "comparison": "m_5_accumulated_vs_m_5_normalized",
+      "difference_mean": 0.36750000000000005,
+      "ci95_difference_t": [
+        0.2964302124435445,
+        0.4385697875564556
+      ],
+      "W": 0.0,
+      "p_raw": 0.001953125,
+      "p_holm": 0.029296875
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "unit": "independent_BA_network_means",
+  "inertia_effect_by_eta": {
+    "eta_0.5": {
+      "mean_high_minus_low": -0.07557499999999998,
+      "ci95_t": [
+        -0.12308645647115557,
+        -0.02806354352884438
+      ]
+    },
+    "eta_1.2": {
+      "mean_high_minus_low": -0.06200000000000001,
+      "ci95_t": [
+        -0.09833546106710955,
+        -0.02566453893289048
+      ]
+    },
+    "eta_2.5": {
+      "mean_high_minus_low": -0.027299999999999984,
+      "ci95_t": [
+        -0.0571976792377045,
+        0.002597679237704535
+      ]
+    }
+  },
+  "interaction_test": {
+    "n_units": 20,
+    "unit": "independent_BA_network_mean",
+    "conditions": [
+      "eta_0.5",
+      "eta_1.2",
+      "eta_2.5"
+    ],
+    "friedman": {
+      "statistic": 4.300000000000011,
+      "p": 0.1164841577734963
+    },
+    "paired_wilcoxon_holm": [
+      {
+        "comparison": "eta_0.5_vs_eta_1.2",
+        "difference_mean": -0.013574999999999976,
+        "difference_ci95_t": [
+          -0.07983309614261347,
+          0.05268309614261352
+        ],
+        "W": 90.0,
+        "p_raw": 0.5958194732666016,
+        "p_holm": 0.8181953430175781
+      },
+      {
+        "comparison": "eta_0.5_vs_eta_2.5",
+        "difference_mean": -0.04827499999999999,
+        "difference_ci95_t": [
+          -0.08958432552134783,
+          -0.006965674478652151
+        ],
+        "W": 46.0,
+        "p_raw": 0.026641845703125,
+        "p_holm": 0.079925537109375
+      },
+      {
+        "comparison": "eta_1.2_vs_eta_2.5",
+        "difference_mean": -0.034700000000000016,
+        "difference_ci95_t": [
+          -0.0903800717600963,
+          0.020980071760096267
+        ],
+        "W": 82.0,
+        "p_raw": 0.40909767150878906,
+        "p_holm": 0.8181953430175781
+      }
+    ]
+  },
+  "main_effect_tests": {
+    "eta": {
+      "n_units": 20,
+      "unit": "independent_BA_network_mean",
+      "conditions": [
+        "eta_0.5",
+        "eta_1.2",
+        "eta_2.5"
+      ],
+      "friedman": {
+        "statistic": 17.100000000000023,
+        "p": 0.00019354509955809171
+      },
+      "paired_wilcoxon_holm": [
+        {
+          "comparison": "eta_0.5_vs_eta_1.2",
+          "difference_mean": -0.10193750000000001,
+          "difference_ci95_t": [
+            -0.1392406278058339,
+            -0.06463437219416612
+          ],
+          "W": 7.0,
+          "p_raw": 3.62396240234375e-05,
+          "p_holm": 0.0001087188720703125
+        },
+        {
+          "comparison": "eta_0.5_vs_eta_2.5",
+          "difference_mean": -0.08078750000000004,
+          "difference_ci95_t": [
+            -0.12404895182800213,
+            -0.03752604817199795
+          ],
+          "W": 29.0,
+          "p_raw": 0.0031528472900390625,
+          "p_holm": 0.006305694580078125
+        },
+        {
+          "comparison": "eta_1.2_vs_eta_2.5",
+          "difference_mean": 0.02114999999999999,
+          "difference_ci95_t": [
+            -0.009878043622443999,
+            0.05217804362244398
+          ],
+          "W": 73.5,
+          "p_raw": 0.23956229205866375,
+          "p_holm": 0.23956229205866375
+        }
+      ]
+    },
+    "inertia": {
+      "n_units": 20,
+      "unit": "independent_BA_network_mean",
+      "conditions": [
+        "low",
+        "high"
+      ],
+      "paired_wilcoxon_holm": [
+        {
+          "comparison": "low_vs_high",
+          "difference_mean": 0.05495833333333333,
+          "difference_ci95_t": [
+            0.03331075127274313,
+            0.07660591539392353
+          ],
+          "W": 7.0,
+          "p_raw": 3.62396240234375e-05,
+          "p_holm": 3.62396240234375e-05
+        }
+      ]
+    }
+  },
+  "note": "Interaction is assessed by differences between high-minus-low inertia effects across eta; no interaction claim follows from visual differences alone."
+}

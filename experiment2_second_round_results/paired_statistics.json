@@ -1,0 +1,59 @@
+{
+  "unit": "network_mean",
+  "n_units": 20,
+  "conditions": [
+    "low",
+    "medium",
+    "high",
+    "benchmark"
+  ],
+  "note": "Network realization is the inference unit.",
+  "friedman": {
+    "statistic": 2.159999999999968,
+    "p": 0.5398700347618066
+  },
+  "paired_wilcoxon_holm": [
+    {
+      "comparison": "low_vs_medium",
+      "difference_mean": -0.004800000000000004,
+      "W": 97.0,
+      "p_raw": 0.7651785898104478,
+      "p_holm": 1.0
+    },
+    {
+      "comparison": "low_vs_high",
+      "difference_mean": -0.028200000000000013,
+      "W": 65.0,
+      "p_raw": 0.14290618896484375,
+      "p_holm": 0.8574371337890625
+    },
+    {
+      "comparison": "low_vs_benchmark",
+      "difference_mean": -0.007324999999999993,
+      "W": 91.0,
+      "p_raw": 0.6215133666992188,
+      "p_holm": 1.0
+    },
+    {
+      "comparison": "medium_vs_high",
+      "difference_mean": -0.023400000000000008,
+      "W": 77.0,
+      "p_raw": 0.3117942810058594,
+      "p_holm": 1.0
+    },
+    {
+      "comparison": "medium_vs_benchmark",
+      "difference_mean": -0.0025249999999999912,
+      "W": 94.0,
+      "p_raw": 0.7011814117431641,
+      "p_holm": 1.0
+    },
+    {
+      "comparison": "high_vs_benchmark",
+      "difference_mean": 0.020875000000000015,
+      "W": 88.0,
+      "p_raw": 0.5458755493164062,
+      "p_holm": 1.0
+    }
+  ]
+}
