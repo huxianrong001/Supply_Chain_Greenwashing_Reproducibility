@@ -7,7 +7,7 @@ Payoff Uncertainty, and Strategic Inertia
 on Supply Chain Greenwashing Evolution"
 
 ## Requirements
-Python 3.x
+Python 3.13
 NetworkX
 NumPy
 SciPy
